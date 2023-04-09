@@ -1,6 +1,6 @@
 # DeepLearning-openaigym
 
-## Reinforce Learning base on A2C algorithm for control LunarLander-v2
+## Reinforce Learning base on A2C algorithm for control [LunarLander](https://www.gymlibrary.dev/environments/box2d/lunar_lander/)
 ### Folder contents
 This folder contains three .py files and a folder.
 
@@ -24,3 +24,10 @@ And make sure your python version is not higher than 3.8 if you use anaconda
 If you want to see the previous training results, simply run test.py directly without making any changes to the other files. 
 
 If you want to retrain the model, change the parameters in the config.py file, then run train.py by uncomment lines 157 to 159 in train.py. This process will take about 20 minutes. When you have finished running, run test.py to check the training results.
+
+### demo
+1. This is a demo to showing the result of training
+![training demo](https://github.com/han-ziqi/DeepLearning-openaigym/raw/master/demo/Train%20result.jpeg "demo for training")
+
+2.This is a demo for showing the result of test, the LunaLander can land smoothly and safe.
+![finish demo](https://github.com/han-ziqi/DeepLearning-openaigym/raw/master/demo/demo.jpeg)
