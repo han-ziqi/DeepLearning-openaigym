@@ -1,4 +1,4 @@
-# DeepLearning-openaigym
+# DeepLearning-Openaigym
 
 ## Reinforce Learning base on A2C algorithm for control [LunarLander](https://www.gymlibrary.dev/environments/box2d/lunar_lander/)
 ### Folder contents
@@ -14,8 +14,8 @@ This folder contains three .py files and a folder.
 
 Please make sure you already installed 
 
-TensorFlow-1.13.1
-python 3.6
+- TensorFlow-1.13.1
+- python 3.6
 
 And make sure your python version is not higher than 3.8 if you use anaconda
 
@@ -31,3 +31,7 @@ If you want to retrain the model, change the parameters in the config.py file, t
 
 2.This is a demo for showing the result of test, the LunaLander can land smoothly and safe.
 ![finish demo](https://github.com/han-ziqi/DeepLearning-openaigym/raw/master/demo/demo.jpeg)
+
+3.This is a gif to show the landing process.
+**This gif is from [OpenAI gym](https://www.gymlibrary.dev), is similar to our project**
+![demo](https://github.com/han-ziqi/DeepLearning-openaigym/raw/master/demo/lunar_lander_continuous.gif)
