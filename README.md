@@ -33,5 +33,5 @@ If you want to retrain the model, change the parameters in the config.py file, t
 ![finish demo](https://github.com/han-ziqi/DeepLearning-openaigym/raw/master/demo/demo.jpeg)
 
 3.This is a gif to show the landing process.
-**This gif is from [OpenAI gym](https://www.gymlibrary.dev), is similar to our project**
+**This gif is from [OpenAI gym](https://www.gymlibrary.dev), I use it to demonstrate it on behalf of my project**
 ![demo](https://github.com/han-ziqi/DeepLearning-openaigym/raw/master/demo/lunar_lander_continuous.gif)
