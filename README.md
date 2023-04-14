@@ -1,17 +1,22 @@
 # DeepLearning-Openaigym
 
-## Reinforce Learning base on A2C algorithm for control [LunarLander](https://www.gymlibrary.dev/environments/box2d/lunar_lander/)
-### Folder contents
-This folder contains three .py files and a folder.
+This is a deep reinforcement learning project that I worked with a group of 5 people. We implemented [Openai Gym's Lunar Lander-v2](https://www.gymlibrary.dev/environments/box2d/lunar_lander/), which aims to teach the agent to land a spacecraft on the moon using techniques. The project utilizes **Python** as the primary programming language and several libraries such as **TensorFlow** and **NumPy**. 
 
-+ train.py is used to train the lander for a smooth landing.
-+ test.py is used to test the training results.
-+ config.py is used to adjust some important parameters, such as the number of loops.
-+ The models folder is used to cache the data from previous tests.
+My role was collaborate with another to designed a deep neural network using TensorFlow, with multiple layers of convolutional and dense layers to enable the agent to learn features and patterns from the environment. This project offers a great opportunity to gain hands-on experience in deep learning, reinforcement learning and develop an understanding of how machine learning algorithms can solve complex real-world problems.
+
+In this project, we
+
+- Compared the [Q-learning algorithm](https://en.wikipedia.org/wiki/Q-learning) with the AC algorithm 
+- Introduced the [A2C algorithm](https://towardsdatascience.com/understanding-actor-critic-methods-931b97b6df3f)
+- Implemented the A2C algorithm and finish deep learning training.
+
+### Content
+- train.py is used to train the lander for a smooth landing.
+- test.py is used to test the training results.
+- config.py is used to adjust some important parameters, such as the number of loops.
+- The models folder is used to cache the data from previous tests.
           
-
 ### Before you start
-
 Please make sure you already installed 
 
 - TensorFlow-1.13.1
